@@ -1,0 +1,33 @@
+// //Demo Query: curl -X POST "http://localhost:8000/search" \
+//      -H "Content-Type: application/json" \            
+//      -d '{"query": "artificial intelligence patents"}'
+
+//OUTPUT:
+{
+    "results": [
+        {
+            "summary": "wilfred gomes, abhishek a. sharma, mauro j. kobrinsky, doug b. ingerly | regular undiscounted | 2025-02-28",
+            "application_number": "19066538",
+            "filing_date": "2025-02-28",
+            "entity_type": "Regular Undiscounted",
+            "quality_score": 5,
+            "source_fingerprint": "e84c1727ba3f8d94ff6b76425416a31785e9417aca104ce7baa2fe9d90c70747"
+        },
+        {
+            "summary": "william von novak, mohamed afify, antoni tong, scott packard | small | 2025-02-25",
+            "application_number": "19063170",
+            "filing_date": "2025-02-25",
+            "entity_type": "Small",
+            "quality_score": 5,
+            "source_fingerprint": "58f562c2cb716822e4ac664a18e2c0349cbc3971a5886bfc0fff57b7d97566d7"
+        },
+        {
+            "summary": "warren v. moore | small | 2025-01-31",
+            "application_number": "19042496",
+            "filing_date": "2025-01-31",
+            "entity_type": "Small",
+            "quality_score": 2,
+            "source_fingerprint": "a1ac7f42c156fb70bc7c6b0c6e8c89a4acd425770dce48ab425c5661802b2920"
+        }
+    ]
+}
