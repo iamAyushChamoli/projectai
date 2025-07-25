@@ -16,7 +16,7 @@ The pipeline demonstrates the following capabilities:
 ## Repository Structure
 
 ```
-├── run_pipeline.py          # Core pipeline: parse, clean, embed, persist
+├── pipeline.py          # Core pipeline: parse, clean, embed, persist
 ├── app.py                   # FastAPI application exposing /search endpoint
 ├── results-*.json           # Source JSON dataset
 ├── patent_data.duckdb       # DuckDB database file
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ### 2. Execute the Pipeline
 
 ```bash
-python run_pipeline.py
+python pipeline.py
 ```
 
 This step will:
